@@ -39,7 +39,25 @@
       </ul>
      </div>
      </nav>
-
+     <!--Contenedores-->
+     <div class="container">
+       <div class="row">
+         <!--Materia-->
+         <div class="col s6 m4 l3">
+          <div class="card-panel">
+            <form class="center-align" action="index.php" method="post">
+              <div class="">
+                Confirmar Materia
+                <input placeholder="Ingrese Materia" type="text" name="agregarVertice" class="validate">
+                <button class="btn waves-effect waves-light " type="submit" name="action">Confirmar Materia
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+       </div>
+     </div>
      <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>
      <script type="text/javascript">
